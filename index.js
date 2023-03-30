@@ -38,3 +38,9 @@ function colorSquare(){
 function changeColor(choice){
      color= choice; 
 }
+
+function resetBorad(){
+    let board= document.querySelector('.board');
+    let squares = document.querySelectorAll('div');
+    squares.forEach(div=> div.remove()); 
+}
