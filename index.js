@@ -3,7 +3,7 @@ let color='black';
 function populateBoard(size){
     let board= document.querySelector('.board');
     let squares = document.querySelectorAll('div');
-    squares.forEach(dive=> dive.remove); 
+    squares.forEach(div=> div.remove()); 
     board.style.gridTemplateColumns = `repeat(${size} , 1fr)`; 
     board.style.gridTemplateRows = `repeat(${size} , 1fr)` ;
     let amount = size * size
@@ -27,7 +27,12 @@ function changeSize(input){
 }
 
 function colorSquare(){
-    this.style.backgroundColor= color;
+    if (color=== 'random'){
+        this.style.backgroundColor= `hsl(${Math.random()*360}, 100%, 50%)`;
+    }
+    else{
+        this.style.backgroundColor= color;
+    }
 }
 
 function changeColor(choice){
