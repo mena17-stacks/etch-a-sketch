@@ -5,3 +5,26 @@
     display: grid;
 }
 
+body{
+    background-color: bisque;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: brown;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#buttons{
+    margin: 20px;
+}
+#basic-buttons{
+    margin-top:20px;
+}
