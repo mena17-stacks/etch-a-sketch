@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: bisque;
+    background-image: url("minimalist-pastel-color-blob-aesthetic-background-wallpaper-template-poster-free-vector.jpg"); 
 }
 
 .content{
@@ -16,15 +16,179 @@ body{
 }
 
 h1{
-    color: brown;
-    margin: 50px;
+    color: rgb(254, 254, 254);
+    background-color: rgb(221, 189, 250);
+    margin: 20px;
     display: flex;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.black{
+    background-color: black;
+    color: azure;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 8px;
+}
+.black:hover {
+    background-color: #3a3939;
+    color: white;
+  }
+
+.white{
+    color: black;
+    background-color: azure;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 8px;
+}
+
+.white:hover {
+    background-color: #d8d8d8;
+    color: rgb(0, 0, 0);
+  }
+
+.refresh{
+    background-color: rgba(0, 0, 0, 0.318);
+    color: rgb(2, 2, 2);
+    border: none;
+    padding: 8px 8px;
+    border-radius: 8px;
+}
+
+.refresh:hover {
+    background-color: #404040;
+    color: rgb(161, 161, 161);
+  }
+
+.red{
+    background-color: rgb(245, 4, 4);
+    color: rgb(249, 249, 249);
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.red:hover {
+    background-color: #880000;
+    color: white;
+  }
+
+.orange{
+    background-color: rgb(255, 106, 0);
+    color: azure;
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.orange:hover {
+    background-color: #7c2c01;
+    color: white;
+  }
+
+.yellow{
+    background-color: rgb(238, 254, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.yellow:hover {
+    background-color: #736200;
+    color: white;
+}
+
+.green{
+    background-color: rgb(47, 132, 51);
+    color: rgb(253, 252, 252);
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.green:hover {
+    background-color: #00310a;
+    color: white;
+  }
+
+.blue{
+    background-color: rgb(0, 59, 255);
+    color: azure;
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.blue:hover {
+    background-color: #000741;
+    color: white;
+  }
+
+.pink{
+    background-color: rgb(245, 187, 227);
+    color: azure;
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.pink:hover {
+    background-color: #f338bb;
+    color: white;
+  }
+
+.purple{
+    background-color: rgb(88, 22, 124);
+    color: azure;
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+.purple:hover {
+    background-color: #32003e;
+    color: white;
+  }
+
+.brown{
+    background-color: rgb(149, 55, 1);
+    color: azure;
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.brown:hover {
+    background-color: #451900;
+    color: white;
+  }
+
+.gray{
+    background-color: rgb(112, 112, 112);
+    color: azure;
+    border: none;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.gray:hover {
+    background-color: #352b2b;
+    color: white;
+}
+
+#buttons2{
+    margin: 20px;
+    cursor: pointer;
 }
 
 #buttons{
-    margin: 20px;
-}
-#basic-buttons{
     margin-top:20px;
+    cursor: pointer;
+}
+
+.sizesettings{
+    margin-bottom: 20px;
+    cursor: pointer;
 }
